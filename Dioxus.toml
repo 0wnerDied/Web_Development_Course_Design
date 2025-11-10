@@ -1,0 +1,17 @@
+[application]
+name = "team-operation-system"
+
+# 指定要构建的二进制目标
+[application.bin]
+name = "frontend"
+
+[web.app]
+title = "团队运营管理系统"
+
+# 启用前端特性
+[web.resource.dev]
+style = ["assets/main.css"]
+
+[bundle]
+identifier = "com.personnel.management"
+publisher = "Personnel Management Team"
